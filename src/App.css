@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;600&display=swap');
+
+*{
+  font-family: 'Dosis', sans-serif;
+}
+
+.App {
+  text-align: left;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+main{
+  padding: 1.5rem 3rem;
+  font-size: 16px;
+}
+
+@media (max-width: 576px){
+  main{
+    padding-right: 1rem;
+  }
+}
